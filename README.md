@@ -79,7 +79,7 @@ In most cases, `weep` can be built by running the `make` command in the reposito
 ### Embedded configuration
 
 `weep` binaries can be shipped with an embedded configuration to allow shipping an "all-in-one" binary.
-An example of such a configuration is included in [example-config.yaml](example-config.yaml).
+An example of such a configuration is included in [example-config.yaml](configs/example-config.yaml).
 
 To compile with an embedded config, set the `EMBEDDED_CONFIG_FILE` environment variable at
 build time. The value of this variable MUST be the **absolute path** of the configuration
